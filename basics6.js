@@ -1,11 +1,11 @@
 // objects in javascript
 let person = {
     firstName: "John",
+    lastName: "Doe",
+    age: 34,
     fullName: function() {   // defining a function 
         console.log(this.firstName + " " + this.lastName)
-    },
-    lastName: "Doe",
-    age: 34
+    }
 }
 
 // Accessing properties of object
